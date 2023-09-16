@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Projeto X</title>
+</head>
+<body>
+    <H1>Tarefas diarias</H1>
+    <button onclick="ax1()" id="btnadd" class="addtarefa">Adicionar tarefa</button>
+
+    <div id="arealista" class="listatarefa">
+        <div class="tarefas">
+            <button class="marcar"><box-icon name='radio-circle-marked'></box-icon></button>
+            <tex-box class="texto">Ola mundo!</tex-box>
+            <button class="deletar"><box-icon name='trash' color='#f9f9f9' ></box-icon></button>
+        </div>
+    </div>
+
+    <div id="data" data-aberto="1" class="opaddtarefa">
+        <p class="ttl1">Titulo:</p>
+        <input id="box1" class="box1"></input>
+        <p class="ttl2">Descrição:</p>
+        <input id="box2" class="box2"></input>
+        <p class="ttl3">Tempo:</p>
+        <input id="valorinicial" class="box3" type="range" value="0" min="0" max="24">
+        <div id="valor" class="valor"></div>
+        <p class="ttl4">Cor:</p>
+        <div class="box4">
+            <button class="cor1"></button>
+            <button class="cor2"></button>
+            <button class="cor3"></button>
+            <button class="cor4"></button>
+            <button class="cor5"></button>
+            <button class="cor6"></button>
+            <button class="cor7"></button>
+            <button class="cor8"></button>
+            <button class="cor9"></button>
+            <button class="cor10"></button>
+            <button class="cor12"></button>
+            <button class="cor13"></button>
+            <button class="cor14"></button>
+            <button class="cor17"></button>
+            <button class="cor20"></button>
+        </div>
+        <button onclick="ax2()" class="btncl1">Cancelar</button>
+        <button onclick="adicionarItem()" class="btnadd1">Adicionar</button>
+    </div>
+
+    <div>
+        <div id="chart" style="width: 500px; height: 500px; position: absolute; right: 10%; top: 15%;"></div>
+    </div>
+
+    <script src="Script/script.js"></script>
+</body>
+
+</html>

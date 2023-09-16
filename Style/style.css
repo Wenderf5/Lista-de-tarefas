@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+*:focus {
+    outline: none;
+}
+
+h1 {
+    position: absolute;
+    left: 12%;
+    top: 11.50%;
+    color: rgb(93, 93, 93);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.addtarefa {
+    position: absolute;
+    height: 40px;
+    top: 18%;
+    left: 34%;
+    background-color: #d7e2fd;
+    border: 2px rgb(113, 113, 113) solid;
+    border-radius: 10px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.addtarefa:hover {
+    background: #b2c7fc;
+    color: #4a66b8;
+}
+
+.listatarefa {
+    position: absolute;
+    width: 800px;
+    top: 35%;
+}
+
+.tarefas {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(113, 113, 113);
+    left: 18%;
+    top: 35%;
+    margin-bottom: 30px;
+}
+
+.marcar {
+    width: 50px;
+    background-color: #d3ddf7;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.texto {
+    width: 400px;
+    background-color: #d3ddf7;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.deletar {
+    border: none;
+    width: 50px;
+    background: rgb(255, 3, 3);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.deletar:hover {
+    background: rgb(124, 3, 3)
+}
+
+.opaddtarefa {
+    &[data-aberto="1"] {
+        display: none;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        box-shadow: 3px 3px 30px rgb(102, 100, 100);
+        background-color: white;
+        border-radius: 30px;
+    }
+    &[data-aberto="2"] {
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        box-shadow: 3px 3px 30px rgb(102, 100, 100);
+        background-color: white;
+        border-radius: 30px;
+    }
+}
+
+.ttl1 {
+    position: absolute;
+    font-size: 16px;
+    left: 10%;
+    top: 7%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box1 {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    border: 1px solid rgb(113, 113, 113);
+    padding-left: 10px;
+}
+
+.ttl2 {
+    position: absolute;
+    font-size: 16px;
+    left: 10%;
+    top: 22%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box2 {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 31%;
+    left: 10%;
+    border: 1px solid rgb(113, 113, 113);
+    padding-left: 10px;
+}
+
+.ttl3 {
+    position: absolute;
+    font-size: 16px;
+    left: 10%;
+    top: 37%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box3 {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.valor {
+    position: absolute;
+    top: 46.65%;
+    left: 47%;
+}
+
+.ttl4 {
+    position: absolute;
+    font-size: 16px;
+    left: 10%;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box4 {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    border: 1px solid rgb(113, 113, 113);
+    padding-left: 10px;
+}
+
+.btnadd1 {
+    position: absolute;
+    right: 15%;
+    bottom: 8%;
+    border: 1px solid rgb(113, 113, 113);
+    background: #d6d6d6;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btncl1 {
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+    border: 1px solid rgb(113, 113, 113);
+    background: #d6d6d6;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cor1 {
+    background: #000000;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor2 {
+    background: #FF0000;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor3 {
+    background: #00FF00;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor4 {
+    background: #0000FF;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor5 {
+    background: #FFFF00;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor6 {
+    background: #FF00FF;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor7 {
+    background: #00FFFF;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor8 {
+    background: #FFA500;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor9 {
+    background: #8A2BE2;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor10 {
+    background: #008000;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor12 {
+    background: #FFC0CB;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor13 {
+    background: #008080;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor14 {
+    background: #FFD700;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor17 {
+    background: #FA8072;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor20 {
+    background: #C0C0C0;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
