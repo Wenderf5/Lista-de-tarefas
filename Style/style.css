@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 body {
     margin: 0%;
@@ -12,31 +15,61 @@ body {
     outline: none;
 }
 
+.txt18{
+    right: 17%;
+    top: 70%;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Mooli', sans-serif;
+    background: white;
+}
+
+.imggrafico{
+    position: absolute;
+    right: 18%;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    top: 38%;
+}
+
 h1 {
     position: absolute;
-    left: 12%;
-    top: 11.50%;
+    left: 10%;
+    top: 12.90%;
     color: rgb(93, 93, 93);
-    font-family: 'Pacifico', cursive;
+    font-family: 'Mooli', sans-serif;
     font-size: 40px;
+}
+
+.txtat{
+    position: absolute;
+    left: 35px;
+    top: 12px;
+}
+
+.iconemais{
+    position: absolute;
+    left: 5px;
+    top: 8px;
 }
 
 .addtarefa {
     position: absolute;
+    width: 110px;
     height: 40px;
     top: 18%;
-    left: 34%;
-    background-color: #d7e2fd;
-    border: 2px rgb(113, 113, 113) solid;
+    left: 38%;
+    background-color: #3857b0;
+    border: none;
     border-radius: 10px;
-    color: #333333;
-    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-family: 'Mooli', sans-serif;
     cursor: pointer;
 }
 
 .addtarefa:hover {
-    background: #b2c7fc;
-    color: #4a66b8;
+    box-shadow: 1px 1px 3px #3857b0;
 }
 
 .listatarefa {
@@ -45,31 +78,44 @@ h1 {
     top: 35%;
 }
 
+.imgadd{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 20%;
+    top: 40%;
+}
+
 .tarefas {
     display: flex;
     position: relative;
     width: 500px;
-    height: 40px;
+    height: 50px;
     border-radius: 10px;
-    border: 2px solid rgb(113, 113, 113);
+    border: none;
+    box-shadow: 5px 5px 10px #d3d3d3;
     left: 18%;
     top: 35%;
     margin-bottom: 30px;
 }
 
 .marcar {
+    margin-top: 6px;
     width: 50px;
-    background-color: #d3ddf7;
+    background-color: white;
     border: none;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 
 .texto {
-    width: 400px;
-    background-color: #d3ddf7;
-    padding-left: 10px;
-    padding-top: 10px;
+    font-family: 'Mooli', sans-serif;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 450px;
+    background-color: white;
+    padding-top: 15px;
+    font-size: 15px;
 }
 
 .deletar {
@@ -117,234 +163,91 @@ h1 {
     position: absolute;
     font-size: 16px;
     left: 10%;
-    top: 7%;
-    font-family: 'Roboto', sans-serif;
+    top: 13%;
+    font-family: 'Mooli', sans-serif;
 }
 
 .box1 {
     width: 400px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
-    top: 16%;
+    top: 22%;
     left: 10%;
-    border: 1px solid rgb(113, 113, 113);
+    border: 1px solid rgb(0, 0, 0);
     padding-left: 10px;
+    font-family: 'Mooli', sans-serif;
 }
 
 .ttl2 {
     position: absolute;
     font-size: 16px;
     left: 10%;
-    top: 22%;
-    font-family: 'Roboto', sans-serif;
+    top: 32%;
+    font-family: 'Mooli', sans-serif;
 }
 
 .box2 {
     width: 400px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
-    top: 31%;
+    top: 41%;
     left: 10%;
-    border: 1px solid rgb(113, 113, 113);
+    border: 1px solid rgb(0, 0, 0);
     padding-left: 10px;
+    font-family: 'Mooli', sans-serif;
 }
 
 .ttl3 {
     position: absolute;
     font-size: 16px;
     left: 10%;
-    top: 37%;
-    font-family: 'Roboto', sans-serif;
+    top: 52%;
+    font-family: 'Mooli', sans-serif;
 }
 
 .box3 {
     width: 200px;
     height: 30px;
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 10%;
 }
 
 .valor {
     position: absolute;
-    top: 46.65%;
+    top: 61.50%;
     left: 47%;
-}
-
-.ttl4 {
-    position: absolute;
-    font-size: 16px;
-    left: 10%;
-    top: 50%;
-    font-family: 'Roboto', sans-serif;
-}
-
-.box4 {
-    width: 400px;
-    height: 100px;
-    border-radius: 10px;
-    position: absolute;
-    top: 60%;
-    left: 10%;
-    border: 1px solid rgb(113, 113, 113);
-    padding-left: 10px;
+    font-family: 'Mooli', sans-serif;
 }
 
 .btnadd1 {
     position: absolute;
     right: 15%;
     bottom: 8%;
-    border: 1px solid rgb(113, 113, 113);
-    background: #d6d6d6;
+    border: none;
+    background: #242643;
     border-radius: 5px;
-    height: 30px;
+    color: white;
+    width: 80px;
+    height: 35px;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 1px 1px 5px #d3d3d3;
 }
 
 .btncl1 {
     position: absolute;
     left: 5%;
     bottom: 8%;
-    border: 1px solid rgb(113, 113, 113);
-    background: #d6d6d6;
+    color: white;
+    border: none;
+    background: #242643;
     border-radius: 5px;
-    height: 30px;
+    width: 80px;
+    height: 35px;
     cursor: pointer;
-}
-
-.cor1 {
-    background: #000000;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor2 {
-    background: #FF0000;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor3 {
-    background: #00FF00;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor4 {
-    background: #0000FF;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor5 {
-    background: #FFFF00;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor6 {
-    background: #FF00FF;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor7 {
-    background: #00FFFF;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor8 {
-    background: #FFA500;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor9 {
-    background: #8A2BE2;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor10 {
-    background: #008000;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor12 {
-    background: #FFC0CB;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor13 {
-    background: #008080;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor14 {
-    background: #FFD700;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor17 {
-    background: #FA8072;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.cor20 {
-    background: #C0C0C0;
-    height: 20px;
-    width: 20px;
-    border: none;
-    margin-top: 10px;
-    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 1px 1px 5px #d3d3d3;
 }
