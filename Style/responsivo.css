@@ -1,0 +1,141 @@
+@media (min-width: 1090px) and (max-width: 1250px) {
+
+    h1{
+        font-size: 35px;
+    }
+    .addtarefa{
+        top: 17%;
+    }
+    .graficoComplte{
+        width: 450px;
+        height: 450px;
+        position: absolute;
+        right: 10%;
+        top: 15%;
+    }
+    .imggrafico{
+        top: 35%;
+    }
+    .tarefas{
+        width: 400px;
+        left: 13%;
+    }
+}
+@media (min-width: 915px) and (max-width: 1089px){
+
+    .graficoComplte{
+        width: 430px;
+        height: 430px;
+        position: absolute;
+        right: 2%;
+        top: 15%;
+    }
+    .imggrafico{
+        top: 31%;
+        right: 15%;
+    }
+    .txt18{
+        top: 62%;
+        right: 14%;
+    }
+    h1{
+        font-size: 33px;
+        left: 5%;
+    }
+    .addtarefa{
+        left: 38%;
+        top: 16.50%;
+        width: 110px;
+        height: 37px;
+    }
+    .imgadd{
+        left: 10%;
+    }
+    .tarefas{
+        width: 350px;
+        left: 10%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 799px) {
+
+    .graficoComplte{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        right: 2%;
+        top: 15%;
+    }
+    h1{
+        font-size: 25px;
+        left: 6%;
+    }
+    .addtarefa{
+        left: 15%;
+        top: 23%;
+        width: 110px;
+        height: 37px;
+    }
+    .imgadd{
+        left: 11%;
+        top: 35%;
+    }
+    .imggrafico{
+        top: 28%;
+        right: 8%;
+        width: 150px;
+        height: 150px;
+    }
+    .txt18{
+        top: 52%;
+        right: 5%;
+    }
+    .tarefas{
+        width: 300px;
+        left: 2%;
+    }
+    .listatarefa{
+        width: 600px;
+    }
+}
+@media (min-width: 800px) and (max-width: 914px) {
+
+    .graficoComplte{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        right: 2%;
+        top: 15%;
+    }
+    h1{
+        font-size: 25px;
+        left: 12%;
+    }
+    .addtarefa{
+        left: 18.50%;
+        top: 23%;
+        width: 110px;
+        height: 37px;
+    }
+    .imgadd{
+        left: 11%;
+        top: 35%;
+    }
+    .imggrafico{
+        top: 28%;
+        right: 8%;
+        width: 150px;
+        height: 150px;
+    }
+    .txt18{
+        top: 52%;
+        right: 5%;
+    }
+    .tarefas{
+        width: 380px;
+        left: 3%;
+    }
+    .listatarefa{
+        width: 700px;
+    }
+}
