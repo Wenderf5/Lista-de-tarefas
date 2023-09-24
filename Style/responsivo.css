@@ -214,14 +214,15 @@
     }
 
     .listatarefa {
-        width: 300px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
         top: 85%;
     }
 
     .tarefas {
         width: 100%;
-        left: 50%;
-        transform: translate(-47%, -50%);
+        left: 0%;
     }
 
     .opaddtarefa {
@@ -344,8 +345,5 @@
         cursor: pointer;
         font-family: 'Ubuntu', sans-serif;
         box-shadow: 1px 1px 5px #d3d3d3;
-    }
-    input, button {
-        touch-action: manipulation;
     }
 }
