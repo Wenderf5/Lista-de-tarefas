@@ -219,7 +219,7 @@
     }
 
     .tarefas {
-        width: 300px;
+        width: 100%;
         left: 50%;
         transform: translate(-47%, -50%);
     }
@@ -344,5 +344,8 @@
         cursor: pointer;
         font-family: 'Ubuntu', sans-serif;
         box-shadow: 1px 1px 5px #d3d3d3;
+    }
+    input, button {
+        touch-action: manipulation;
     }
 }
