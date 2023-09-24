@@ -214,8 +214,7 @@
     }
 
     .listatarefa {
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 2.5%;
         width: 95%;
         top: 85%;
     }
