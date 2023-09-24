@@ -1,57 +1,68 @@
 @media (min-width: 1090px) and (max-width: 1250px) {
 
-    h1{
+    h1 {
         font-size: 35px;
     }
-    .addtarefa{
+
+    .addtarefa {
         top: 17%;
     }
-    .graficoComplte{
+
+    .graficoComplte {
         width: 450px;
         height: 450px;
         position: absolute;
         right: 10%;
         top: 15%;
     }
-    .imggrafico{
+
+    .imggrafico {
         top: 35%;
     }
-    .tarefas{
+
+    .tarefas {
         width: 400px;
         left: 13%;
     }
 }
-@media (min-width: 915px) and (max-width: 1089px){
 
-    .graficoComplte{
+@media (min-width: 915px) and (max-width: 1089px) {
+
+    .graficoComplte {
         width: 430px;
         height: 430px;
         position: absolute;
         right: 2%;
         top: 15%;
     }
-    .imggrafico{
+
+    .imggrafico {
         top: 31%;
         right: 15%;
     }
-    .txt18{
+
+    .txt18 {
         top: 62%;
         right: 14%;
     }
-    h1{
+
+    h1 {
         font-size: 33px;
         left: 5%;
     }
-    .addtarefa{
+
+    .addtarefa {
         left: 38%;
         top: 16.50%;
         width: 110px;
         height: 37px;
     }
-    .imgadd{
+
+    .imgadd {
         left: 10%;
     }
-    .tarefas{
+
+    .tarefas {
         width: 350px;
         left: 10%;
     }
@@ -59,133 +70,279 @@
 
 @media (min-width: 640px) and (max-width: 799px) {
 
-    .graficoComplte{
+    .graficoComplte {
         width: 300px;
         height: 300px;
         position: absolute;
         right: 2%;
         top: 15%;
     }
-    h1{
+
+    h1 {
         font-size: 25px;
         left: 6%;
     }
-    .addtarefa{
+
+    .addtarefa {
         left: 15%;
         top: 23%;
         width: 110px;
         height: 37px;
     }
-    .imgadd{
+
+    .imgadd {
         left: 11%;
         top: 35%;
     }
-    .imggrafico{
+
+    .imggrafico {
         top: 28%;
         right: 8%;
         width: 150px;
         height: 150px;
     }
-    .txt18{
+
+    .txt18 {
         top: 52%;
         right: 5%;
     }
-    .tarefas{
+
+    .tarefas {
         width: 300px;
         left: 2%;
     }
-    .listatarefa{
+
+    .listatarefa {
         width: 600px;
     }
 }
+
 @media (min-width: 800px) and (max-width: 914px) {
 
-    .graficoComplte{
+    .graficoComplte {
         width: 300px;
         height: 300px;
         position: absolute;
         right: 2%;
         top: 15%;
     }
-    h1{
+
+    h1 {
         font-size: 25px;
         left: 12%;
     }
-    .addtarefa{
+
+    .addtarefa {
         left: 18.50%;
         top: 23%;
         width: 110px;
         height: 37px;
     }
-    .imgadd{
+
+    .imgadd {
         left: 11%;
         top: 35%;
     }
-    .imggrafico{
+
+    .imggrafico {
         top: 28%;
         right: 8%;
         width: 150px;
         height: 150px;
     }
-    .txt18{
+
+    .txt18 {
         top: 52%;
         right: 5%;
     }
-    .tarefas{
+
+    .tarefas {
         width: 380px;
         left: 3%;
     }
-    .listatarefa{
+
+    .listatarefa {
         width: 700px;
     }
 }
 
-@media (max-width: 639px){
+@media (max-width: 639px) {
 
-    .imggrafico{
+    .imggrafico {
         top: 28%;
         left: 50%;
-        transform: translate(-50%, 15%);
+        transform: translate(-45%, 15%);
         width: 120px;
         height: 120px;
     }
-    .txt18{
+
+    .txt18 {
+        width: 180px;
         top: 52%;
-        transform: translate(5%, 10%);
-        left: 20%;
+        transform: translate(55%, -10%);
+        right: 50%;
         font-size: 13px;
     }
-    .graficoComplte{
+
+    .graficoComplte {
         width: 80%;
         height: 250px;
         position: absolute;
-        transform: translate(-38%, 15%);
-        left: 50%;
+        transform: translate(60%, 15%);
+        right: 50%;
         top: 15%;
     }
-    h1{
+
+    h1 {
         font-size: 28px;
         top: 5%;
         left: 12%;
     }
-    .addtarefa{
+
+    .addtarefa {
         left: 50%;
         top: 68%;
         transform: translate(-50%, 15%);
         width: 110px;
         height: 37px;
     }
-    .imgadd{
+
+    .imgadd {
         left: 50%;
         transform: translate(-40%, 90%);
         top: 50%;
     }
-    .listatarefa{
+
+    .listatarefa {
         width: 300px;
-        top: 83%;
+        top: 85%;
     }
-    .tarefas{
+
+    .tarefas {
         width: 300px;
-        left: 1.5%;
+        left: 50%;
+        transform: translate(-47%, -50%);
+    }
+
+    .opaddtarefa {
+        &[data-aberto="1"] {
+            display: none;
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            box-shadow: 1px 1px 10px rgba(102, 100, 100, 0.618);
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        &[data-aberto="2"] {
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            box-shadow: 1px 1px 10px rgba(102, 100, 100, 0.618);
+            background-color: white;
+            border-radius: 30px;
+        }
+    }
+
+    .ttl1 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 5%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box1 {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        top: 22%;
+        left: 5%;
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 10px;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .ttl2 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 32%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box2 {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        top: 47%;
+        left: 5%;
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 10px;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .ttl3 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 56%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box3 {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 67%;
+        left: 5%;
+    }
+
+    .valor {
+        position: absolute;
+        top: 69.50%;
+        left: 83%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .btnadd1 {
+        position: absolute;
+        right: 7%;
+        bottom: 8%;
+        border: none;
+        background: #242643;
+        border-radius: 5px;
+        color: white;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 1px 1px 5px #d3d3d3;
+    }
+
+    .btncl1 {
+        position: absolute;
+        left: 5%;
+        bottom: 8%;
+        color: white;
+        border: none;
+        background: #242643;
+        border-radius: 5px;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 1px 1px 5px #d3d3d3;
     }
 }

@@ -11,7 +11,7 @@ body {
     background-color: white;
 }
 
-.graficoComplte{
+.graficoComplte {
     width: 500px;
     height: 500px;
     position: absolute;
@@ -23,7 +23,7 @@ body {
     outline: none;
 }
 
-.txt18{
+.txt18 {
     right: 17%;
     top: 70%;
     z-index: 1;
@@ -32,7 +32,7 @@ body {
     background: white;
 }
 
-.imggrafico{
+.imggrafico {
     position: absolute;
     right: 18%;
     z-index: 1;
@@ -50,13 +50,13 @@ h1 {
     font-size: 40px;
 }
 
-.txtat{
+.txtat {
     position: absolute;
     left: 35px;
     top: 12px;
 }
 
-.iconemais{
+.iconemais {
     position: absolute;
     left: 5px;
     top: 8px;
@@ -86,7 +86,7 @@ h1 {
     top: 35%;
 }
 
-.imgadd{
+.imgadd {
     position: absolute;
     width: 200px;
     height: 200px;
@@ -153,6 +153,7 @@ h1 {
         background-color: white;
         border-radius: 30px;
     }
+
     &[data-aberto="2"] {
         z-index: 10;
         top: 50%;
