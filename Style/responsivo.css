@@ -139,3 +139,53 @@
         width: 700px;
     }
 }
+
+@media (max-width: 639px){
+
+    .imggrafico{
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, 15%);
+        width: 120px;
+        height: 120px;
+    }
+    .txt18{
+        top: 52%;
+        transform: translate(5%, 10%);
+        left: 20%;
+        font-size: 13px;
+    }
+    .graficoComplte{
+        width: 80%;
+        height: 250px;
+        position: absolute;
+        transform: translate(-38%, 15%);
+        left: 50%;
+        top: 15%;
+    }
+    h1{
+        font-size: 28px;
+        top: 5%;
+        left: 12%;
+    }
+    .addtarefa{
+        left: 50%;
+        top: 68%;
+        transform: translate(-50%, 15%);
+        width: 110px;
+        height: 37px;
+    }
+    .imgadd{
+        left: 50%;
+        transform: translate(-40%, 90%);
+        top: 50%;
+    }
+    .listatarefa{
+        width: 300px;
+        top: 83%;
+    }
+    .tarefas{
+        width: 300px;
+        left: 1.5%;
+    }
+}
