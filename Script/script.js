@@ -67,12 +67,10 @@ function adicionarItem() {
 function ax5() {
   if (contador2 >= 2) {
     imgadd.style.display = "none";
-    txt18.style.display = "none";
     imggrafico.style.display = "none";
   } else if (contador2 = 1) {
     imgadd.style.display = "block";
-    txt18.style.display = "block";
-    imggrafico.style.display = "block";
+    imggrafico.style.display = "flex";
   }
 }
 
@@ -115,3 +113,36 @@ function ax2() {
 
   data5.dataset.aberto = datavalor;
 }
+
+const hoverTarget1 = document.getElementById("hover-target1");
+const popup1 = document.getElementById("popup1");
+
+hoverTarget1.addEventListener("mouseover", () => {
+    popup1.style.display = "block";
+});
+
+hoverTarget1.addEventListener("mouseout", () => {
+    popup1.style.display = "none";
+});
+
+const hoverTarget2 = document.getElementById("hover-target2");
+const popup2 = document.getElementById("popup2");
+
+hoverTarget2.addEventListener("mouseover", () => {
+    popup2.style.display = "block";
+});
+
+hoverTarget2.addEventListener("mouseout", () => {
+    popup2.style.display = "none";
+});
+
+const hoverTarget3 = document.getElementById("hover-target3");
+const popup3 = document.getElementById("popup3");
+
+hoverTarget3.addEventListener("mouseover", () => {
+    popup3.style.display = "block";
+});
+
+hoverTarget3.addEventListener("mouseout", () => {
+    popup3.style.display = "none";
+});

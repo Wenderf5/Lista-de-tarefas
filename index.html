@@ -13,17 +13,20 @@
 </head>
 
 <body>
-    <H1>Atividades diarias</H1>
-    <button onclick="ax1()" id="btnadd" class="addtarefa"><box-icon class="iconemais" name='plus'
-            color='#ffffff'></box-icon><samp class="txtat">Atividade</samp></button>
+    <div class="t1b">
+        <H1>Atividades diarias</H1>
+        <button onclick="ax1()" id="btnadd" class="addtarefa"><box-icon name='plus'
+            color='#ffffff'></box-icon><samp>Atividade</samp></button>
+    </div>
 
-    <div><img id="imgadd" class="imgadd" src="img/lista 3.png" alt=""></div>
-    <div id="txt18">
+    <div class="imgadd"><img id="imgadd" src="img/lista 3.png" alt=""></div>
+    
+    <div id="imggrafico" class="imggrafico2">
+        <img class="imggrafico1" src="img/Grafico 1.png" alt="">
         <p class="txt18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adicione atividades
             <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para ver como <br> seu tempo está
             distribuído.</p>
     </div>
-    <div><img id="imggrafico" class="imggrafico" src="img/Grafico 1.png" alt=""></div>
 
     <div id="arealista" class="listatarefa">
         <!--<div class="tarefas">
@@ -35,18 +38,30 @@
 
     <div id="data" data-aberto="1" class="opaddtarefa">
         <p class="ttl1">Titulo:</p>
-        <input id="box1" class="box1"></input>
+        <input id="box1" class="box1" maxlength="20"></input>
         <p class="ttl2">Descrição:</p>
-        <input id="box2" class="box2"></input>
+        <input id="box2" class="box2" maxlength="46"></input>
         <p class="ttl3">Tempo:</p>
         <input id="valorinicial" class="box3" type="range" value="0" min="0" max="24">
         <div id="valor" class="valor"></div>
         <button onclick="ax2()" class="btncl1">Cancelar</button>
         <button onclick="adicionarItem()" class="btnadd1">Adicionar</button>
+        <div class="hover-container">
+            <div class="item1" id="hover-target1"><box-icon name='info-circle' ></box-icon></div>
+            <div class="popup" id="popup1">Adicione um titulo para sua atividade.</div>
+        </div>
+        <div class="hover-container">
+            <div class="item2" id="hover-target2"><box-icon name='info-circle' ></box-icon></div>
+            <div class="popup" id="popup2">Adicione uma descrição com oque deve ser na atividade.</div>
+        </div>
+        <div class="hover-container">
+            <div class="item3" id="hover-target3"><box-icon name='info-circle' ></box-icon></div>
+            <div class="popup" id="popup3">Selecione um tempo para fazer a atividade.</div>
+        </div>
     </div>
 
-    <div>
-        <div class="graficoComplte" id="chart"></div>
+    <div class="graficoComplte1">
+        <div class="graficoComplte2" id="chart"></div>
     </div>
 
     <script src="Script/script.js"></script>
