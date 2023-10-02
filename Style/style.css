@@ -42,7 +42,6 @@ body {
     align-items: center;
     flex-direction: column;
     z-index: 1;
-    border: 1px red solid;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -61,7 +60,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px red solid;
     width: 550px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -102,7 +100,6 @@ h1 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    border: 1px red solid;
     width: 500px;
     transform: translate(-50%);
     left: 27%;
@@ -110,7 +107,6 @@ h1 {
 }
 
 .imgadd {
-    border: 1px red solid;
     display: flex;
     position: absolute;
     width: 200px;
