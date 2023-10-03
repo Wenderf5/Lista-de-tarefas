@@ -1,227 +1,398 @@
-@media (min-width: 1090px) and (max-width: 1250px) {
-
-    h1 {
-        font-size: 35px;
-    }
-
-    .addtarefa {
-        top: 17%;
-    }
-
-    .graficoComplte {
-        width: 450px;
-        height: 450px;
-        position: absolute;
-        right: 10%;
-        top: 15%;
-    }
-
-    .imggrafico {
-        top: 35%;
-    }
-
-    .tarefas {
-        width: 400px;
-        left: 13%;
-    }
-}
-
-@media (min-width: 915px) and (max-width: 1089px) {
-
-    .graficoComplte {
-        width: 430px;
-        height: 430px;
-        position: absolute;
-        right: 2%;
-        top: 15%;
-    }
-
-    .imggrafico {
-        top: 31%;
-        right: 15%;
-    }
-
-    .txt18 {
-        top: 62%;
-        right: 14%;
-    }
-
-    h1 {
-        font-size: 33px;
-        left: 5%;
-    }
-
-    .addtarefa {
-        left: 38%;
-        top: 16.50%;
-        width: 110px;
-        height: 37px;
-    }
+@media (min-width: 768px) and (max-width: 1100px){
 
     .imgadd {
-        left: 10%;
-    }
-
-    .tarefas {
-        width: 350px;
-        left: 10%;
-    }
-}
-
-@media (min-width: 640px) and (max-width: 799px) {
-
-    .graficoComplte {
-        width: 300px;
-        height: 300px;
+        display: flex;
         position: absolute;
-        right: 2%;
-        top: 15%;
-    }
-
-    h1 {
-        font-size: 25px;
-        left: 6%;
-    }
-
-    .addtarefa {
-        left: 15%;
-        top: 23%;
-        width: 110px;
-        height: 37px;
-    }
-
-    .imgadd {
-        left: 11%;
-        top: 35%;
-    }
-
-    .imggrafico {
-        top: 28%;
-        right: 8%;
-        width: 150px;
-        height: 150px;
-    }
-
-    .txt18 {
-        top: 52%;
-        right: 5%;
-    }
-
-    .tarefas {
-        width: 300px;
-        left: 2%;
-    }
-
-    .listatarefa {
-        width: 600px;
-    }
-}
-
-@media (min-width: 800px) and (max-width: 914px) {
-
-    .graficoComplte {
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        right: 2%;
-        top: 15%;
-    }
-
-    h1 {
-        font-size: 25px;
-        left: 12%;
-    }
-
-    .addtarefa {
-        left: 18.50%;
-        top: 23%;
-        width: 110px;
-        height: 37px;
-    }
-
-    .imgadd {
-        left: 11%;
-        top: 35%;
-    }
-
-    .imggrafico {
-        top: 28%;
-        right: 8%;
-        width: 150px;
-        height: 150px;
-    }
-
-    .txt18 {
-        top: 52%;
-        right: 5%;
-    }
-
-    .tarefas {
-        width: 380px;
-        left: 3%;
-    }
-
-    .listatarefa {
-        width: 700px;
-    }
-}
-
-@media (max-width: 639px) {
-
-    .imggrafico {
-        top: 28%;
-        left: 50%;
-        transform: translate(-45%, 15%);
-        width: 120px;
-        height: 120px;
-    }
-
-    .txt18 {
         width: 180px;
-        top: 52%;
-        transform: translate(55%, -10%);
-        right: 50%;
-        font-size: 13px;
+        height: 180px;
+        transform: translate(-50%,-50%);
+        left: 23%;
+        top: 55%;
     }
 
-    .graficoComplte {
-        width: 80%;
-        height: 250px;
+    .txt18 {
+        font-family: 'Mooli', sans-serif;
+        background: white;
+        font-size: 15px;
+    }
+
+    .imggrafico1 {
+        width: 150px;
+        height: 150px;
+    }
+    .imggrafico2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        width: 350px;
+        height: 350px;
         position: absolute;
-        transform: translate(60%, 15%);
-        right: 50%;
-        top: 15%;
-    }
-
-    h1 {
-        font-size: 28px;
-        top: 5%;
-        left: 12%;
-    }
-
-    .addtarefa {
-        left: 50%;
-        top: 68%;
-        transform: translate(-50%, 15%);
-        width: 110px;
-        height: 37px;
-    }
-
-    .imgadd {
-        left: 50%;
-        transform: translate(-40%, 90%);
+        transform: translate(-50%,-50%);
+        left: 73%;
         top: 50%;
     }
 
+    .graficoComplte1 {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 73%;
+        top: 50%;
+    }
+    
+    .graficoComplte2 {
+        width: 350px;
+        height: 350px;
+    }
+
+    h1 {
+        color: rgb(93, 93, 93);
+        font-family: 'Mooli', sans-serif;
+        font-size: 20px;
+    }
+    
+    .t1b{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 25%;
+        top: 24%;
+    }
+
     .listatarefa {
-        left: 2.5%;
-        width: 95%;
-        top: 85%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        transform: translate(-50%);
+        left: 25%;
+        top: 35%;
     }
 
     .tarefas {
-        width: 100%;
-        left: 0%;
+        display: flex;
+        position: relative;
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 10px #d3d3d3;
+        top: 35%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 767px){
+
+    .hover-container{
+        display: none;
+    }
+    
+    .graficoComplte1 {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 54%;
+        top: 35%;
+    }
+    
+    .graficoComplte2 {
+        width: 240px;
+        height: 240px;
+    }
+
+    .txt18 {
+        font-family: 'Mooli', sans-serif;
+        background: white;
+        font-size: 14px;
+    }
+
+    .imggrafico1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imggrafico2 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 51%;
+        top: 35%;
+    }
+
+    .t1b{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 70%;
+    }
+
+    .imgadd {
+        display: flex;
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        transform: translate(-40%,-50%);
+        left: 50%;
+        top: 100%;
+    }
+
+    h1 {
+        color: rgb(93, 93, 93);
+        font-family: 'Mooli', sans-serif;
+        font-size: 33px;
+    }
+
+    .listatarefa {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        transform: translate(-50%);
+        left: 50%;
+        top: 90%;
+    }
+
+    .tarefas {
+        display: flex;
+        position: relative;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 10px #d3d3d3;
+        top: 35%;
+        margin-bottom: 30px;
+    }
+
+    .opaddtarefa {
+        &[data-aberto="1"] {
+            display: none;
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            box-shadow: 1px 1px 10px rgba(102, 100, 100, 0.618);
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        &[data-aberto="2"] {
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            box-shadow: 1px 1px 10px rgba(102, 100, 100, 0.618);
+            background-color: white;
+            border-radius: 30px;
+        }
+    }
+
+    .ttl1 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 5%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box1 {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        top: 22%;
+        left: 5%;
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 10px;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .ttl2 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 32%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box2 {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        top: 47%;
+        left: 5%;
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 10px;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .ttl3 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 56%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box3 {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 67%;
+        left: 5%;
+    }
+
+    .valor {
+        position: absolute;
+        top: 69.50%;
+        left: 83%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .btnadd1 {
+        position: absolute;
+        right: 7%;
+        bottom: 8%;
+        border: none;
+        background: #242643;
+        border-radius: 5px;
+        color: white;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 1px 1px 5px #d3d3d3;
+    }
+
+    .btncl1 {
+        position: absolute;
+        left: 5%;
+        bottom: 8%;
+        color: white;
+        border: none;
+        background: #242643;
+        border-radius: 5px;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 1px 1px 5px #d3d3d3;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .hover-container{
+        display: none;
+    }
+
+    .graficoComplte1 {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 60%;
+        top: 35%;
+    }
+    
+    .graficoComplte2 {
+        width: 240px;
+        height: 240px;
+    }
+
+    .txt18 {
+        font-family: 'Mooli', sans-serif;
+        background: white;
+        font-size: 14px;
+    }
+
+    .imggrafico1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imggrafico2 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 54%;
+        top: 35%;
+    }
+
+    .t1b{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 70%;
+    }
+
+    .imgadd {
+        display: flex;
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        transform: translate(-40%,-50%);
+        left: 50%;
+        top: 100%;
+    }
+
+    h1 {
+        color: rgb(93, 93, 93);
+        font-family: 'Mooli', sans-serif;
+        font-size: 33px;
+    }
+
+    .listatarefa {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        transform: translate(-50%);
+        left: 50%;
+        top: 90%;
+    }
+
+    .tarefas {
+        display: flex;
+        position: relative;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 10px #d3d3d3;
+        top: 35%;
+        margin-bottom: 30px;
     }
 
     .opaddtarefa {
