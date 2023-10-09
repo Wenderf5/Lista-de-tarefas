@@ -560,8 +560,8 @@
     }
     
     .graficoComplte2 {
-        width: 240px;
-        height: 240px;
+        width: 300px;
+        height: 400px;
     }
 
     .txt18 {
@@ -571,8 +571,8 @@
     }
 
     .imggrafico1 {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     .imggrafico2 {
@@ -581,12 +581,12 @@
         align-items: center;
         flex-direction: column;
         z-index: 1;
-        width: 240px;
-        height: 240px;
+        width: 300px;
+        height: 400px;
         position: absolute;
         transform: translate(-50%,-50%);
-        left: 55%;
-        top: 35%;
+        left: 51%;
+        top: 28%;
     }
 
     .t1b{
