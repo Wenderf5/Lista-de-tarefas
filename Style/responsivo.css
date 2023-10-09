@@ -16,6 +16,35 @@
         font-size: 15px;
     }
 
+    .texto {
+        word-wrap: break-word;
+        font-family: 'Mooli', sans-serif;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 80%;
+        background-color: white;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .marcar {
+        margin-top: 6px;
+        width: 10%;
+        background-color: white;
+        border: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .deletar {
+        border: none;
+        width: 10%;
+        background: rgb(255, 3, 3);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+    }
+
     .imggrafico1 {
         width: 150px;
         height: 150px;
@@ -167,7 +196,7 @@
         position: absolute;
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 75%;
+        top: 68%;
     }
 
     .imgadd {
@@ -355,6 +384,35 @@
         font-size: 14px;
     }
 
+    .texto {
+        word-wrap: break-word;
+        font-family: 'Mooli', sans-serif;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 80%;
+        background-color: white;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .marcar {
+        margin-top: 6px;
+        width: 10%;
+        background-color: white;
+        border: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .deletar {
+        border: none;
+        width: 10%;
+        background: rgb(255, 3, 3);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+    }
+
     .imggrafico1 {
         width: 100px;
         height: 100px;
@@ -383,7 +441,7 @@
         position: absolute;
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 75%;
+        top: 68%;
     }
 
     .imgadd {
@@ -556,7 +614,7 @@
         position: absolute;
         transform: translate(-50%,-50%);
         left: 60%;
-        top: 35%;
+        top: 32%;
     }
     
     .graficoComplte2 {
@@ -568,6 +626,35 @@
         font-family: 'Mooli', sans-serif;
         background: white;
         font-size: 14px;
+    }
+
+    .texto {
+        word-wrap: break-word;
+        font-family: 'Mooli', sans-serif;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 80%;
+        background-color: white;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .marcar {
+        margin-top: 6px;
+        width: 10%;
+        background-color: white;
+        border: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .deletar {
+        border: none;
+        width: 10%;
+        background: rgb(255, 3, 3);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
     }
 
     .imggrafico1 {
@@ -586,7 +673,7 @@
         position: absolute;
         transform: translate(-50%,-50%);
         left: 51%;
-        top: 28%;
+        top: 23%;
     }
 
     .t1b{
@@ -598,7 +685,7 @@
         position: absolute;
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 75%;
+        top: 68%;
     }
 
     .imgadd {
