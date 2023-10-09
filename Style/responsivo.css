@@ -86,7 +86,7 @@
     }
 }
 
-@media (min-width: 401px) and (max-width: 767px){
+@media (min-width: 501px) and (max-width: 767px){
 
     .hover-container{
         display: none;
@@ -108,6 +108,35 @@
         font-family: 'Mooli', sans-serif;
         background: white;
         font-size: 14px;
+    }
+
+    .texto {
+        word-wrap: break-word;
+        font-family: 'Mooli', sans-serif;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 80%;
+        background-color: white;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .marcar {
+        margin-top: 6px;
+        width: 10%;
+        background-color: white;
+        border: none;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .deletar {
+        border: none;
+        width: 10%;
+        background: rgb(255, 3, 3);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
     }
 
     .imggrafico1 {
@@ -154,14 +183,14 @@
     h1 {
         color: rgb(93, 93, 93);
         font-family: 'Mooli', sans-serif;
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .listatarefa {
         position: absolute;
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 90%;
         transform: translate(-50%);
         left: 50%;
         top: 90%;
@@ -170,7 +199,7 @@
     .tarefas {
         display: flex;
         position: relative;
-        width: 300px;
+        width: 100%;
         height: 50px;
         border-radius: 10px;
         border: none;
@@ -342,6 +371,221 @@
         position: absolute;
         transform: translate(-50%,-50%);
         left: 54%;
+        top: 35%;
+    }
+
+    .t1b{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 70%;
+    }
+
+    .imgadd {
+        display: flex;
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        transform: translate(-40%,-50%);
+        left: 50%;
+        top: 100%;
+    }
+
+    h1 {
+        color: rgb(93, 93, 93);
+        font-family: 'Mooli', sans-serif;
+        font-size: 30px;
+    }
+
+    .listatarefa {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        transform: translate(-50%);
+        left: 50%;
+        top: 90%;
+    }
+
+    .tarefas {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 10px #d3d3d3;
+        top: 35%;
+        margin-bottom: 30px;
+    }
+
+    .opaddtarefa {
+        &[data-aberto="1"] {
+            display: none;
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            box-shadow: 1px 1px 10px rgba(102, 100, 100, 0.618);
+            background-color: white;
+            border-radius: 30px;
+        }
+
+        &[data-aberto="2"] {
+            z-index: 10;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 290px;
+            height: 290px;
+            box-shadow: 1px 1px 10px rgba(102, 100, 100, 0.618);
+            background-color: white;
+            border-radius: 30px;
+        }
+    }
+
+    .ttl1 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 5%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box1 {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        top: 22%;
+        left: 5%;
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 10px;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .ttl2 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 32%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box2 {
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        position: absolute;
+        top: 47%;
+        left: 5%;
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 10px;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .ttl3 {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        top: 56%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .box3 {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 67%;
+        left: 5%;
+    }
+
+    .valor {
+        position: absolute;
+        top: 69.50%;
+        left: 83%;
+        font-family: 'Mooli', sans-serif;
+    }
+
+    .btnadd1 {
+        position: absolute;
+        right: 7%;
+        bottom: 8%;
+        border: none;
+        background: #242643;
+        border-radius: 5px;
+        color: white;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 1px 1px 5px #d3d3d3;
+    }
+
+    .btncl1 {
+        position: absolute;
+        left: 5%;
+        bottom: 8%;
+        color: white;
+        border: none;
+        background: #242643;
+        border-radius: 5px;
+        width: 80px;
+        height: 35px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 1px 1px 5px #d3d3d3;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px) {
+
+    .hover-container{
+        display: none;
+    }
+
+    .graficoComplte1 {
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 60%;
+        top: 35%;
+    }
+    
+    .graficoComplte2 {
+        width: 240px;
+        height: 240px;
+    }
+
+    .txt18 {
+        font-family: 'Mooli', sans-serif;
+        background: white;
+        font-size: 14px;
+    }
+
+    .imggrafico1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imggrafico2 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 55%;
         top: 35%;
     }
 

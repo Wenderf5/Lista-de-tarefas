@@ -54,7 +54,7 @@ function adicionarItem() {
     if (datavalor == "2") { datavalor = "1" };
     data5.dataset.aberto = datavalor;
     let novaatividade = `<div id="${contador}" class="tarefas">
-          <div class="marcar"><box-icon class="marcar" name='radio-circle-marked'></box-icon></div>
+          <div class="marcar"><box-icon class="marcar1" name='radio-circle-marked'></box-icon></div>
           <tex-box class="texto">${input}</tex-box>
           <button id="${i}" onclick="deletar(${contador})" id="delete" class="deletar"><box-icon name='trash' color='#f9f9f9' ></box-icon></button>
           </div>`;
